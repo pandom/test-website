@@ -159,11 +159,19 @@ body.layout-documentation {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+    }
+
+    .dox-wrapper {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
+        width: 100%;
     }
+
     .dox-header {
         padding-top: $bl-0_75;
         -ms-flex: 0 0 108px;
@@ -179,6 +187,8 @@ body.layout-documentation {
         width: 100%;
         max-width: 100%;
         border-top: 1px solid transparent;
+        height: 100%;
+
         .dox-content-wrapper {
             padding-left: $bl-1_5;
             padding-top: $bl-0_25;
@@ -384,6 +394,10 @@ _:-ms-fullscreen,
         padding: 24px;
         width: 100%;
 
+        &.other-color {
+            background: #C1CDD4;
+        }
+
         &.not-centered {
             -webkit-box-align: baseline;
             -ms-flex-align: baseline;
@@ -494,7 +508,7 @@ _:-ms-fullscreen,
     }
 }
 
-#modalDoxSizeDesign {
+.modal-size-design-demo {
     .clrweb-DoxMedia-block.is-colorblock {
         padding: 0;
         text-align: center;
@@ -613,10 +627,13 @@ _:-ms-fullscreen,
     }
 }
 
-clr-modal-style-design-demo {
+.in-place-takeover {
     .clr-example {
         height: 398px;
         position: relative;
+    }
+    &.is-large .clr-example {
+        height: 588px;
     }
     .backdrop-example-container {
         background: #002538;

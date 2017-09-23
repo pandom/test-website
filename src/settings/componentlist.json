@@ -7,15 +7,15 @@
     },
 
     "list": [{
-            "url": "app-layout",
-            "text": "Application Layout",
-            "type": "pattern",
-            "ux": 20,
-            "ui": 20,
-            "core": -1,
-            "ng": -1,
-            "dox": 20
-        },
+        "url": "app-layout",
+        "text": "Application Layout",
+        "type": "pattern",
+        "ux": 20,
+        "ui": 20,
+        "core": -1,
+        "ng": -1,
+        "dox": 20
+    },
         {
             "url": "alerts",
             "text": "Alerts",
@@ -24,7 +24,8 @@
             "ui": 20,
             "core": -1,
             "ng": 20,
-            "dox": 20
+            "dox": 20,
+            "newLayout": true
         },
         {
             "url": "badges",
@@ -137,8 +138,7 @@
             "ui": 20,
             "core": -1,
             "ng": 20,
-            "dox": 20,
-            "isUpdated": true
+            "dox": 20
         },
         {
             "url": "dropdowns",
@@ -335,15 +335,16 @@
             "dox": 20
         },
         {
-            "url": null,
-            "text": "Signpost",
+            "url": "signposts",
+            "text": "Signposts",
             "type": "component",
             "ux": 20,
-            "ui": 5,
+            "ui": 20,
             "core": -1,
-            "ng": 5,
-            "dox": 5,
-            "comments": ""
+            "ng": 20,
+            "dox": 20,
+            "comments": "",
+            "newLayout": true
         },
         {
             "url": "spinners",
@@ -387,17 +388,6 @@
             "dox": 20
         },
         {
-            "url": "tree-view",
-            "text": "Tree View",
-            "type": "component",
-            "newLayout": true,
-            "ux": 20,
-            "ui": 20,
-            "core": -1,
-            "ng": 20,
-            "dox": 20
-        },
-        {
             "url": "toggle-switches",
             "text": "Toggle Switches",
             "type": "component",
@@ -418,6 +408,17 @@
             "dox": 20
         },
         {
+            "url": "tree-view",
+            "text": "Tree View",
+            "type": "component",
+            "newLayout": true,
+            "ux": 20,
+            "ui": 20,
+            "core": -1,
+            "ng": 20,
+            "dox": 20
+        },
+        {
             "url": "typography",
             "text": "Typography",
             "type": "pattern",
@@ -425,6 +426,17 @@
             "ui": 20,
             "core": 20,
             "ng": -1,
+            "dox": 20
+        },
+        {
+            "url": "vertical-nav",
+            "text": "Vertical Nav",
+            "newLayout": true,
+            "type": "component",
+            "ux": 20,
+            "ui": 10,
+            "core": -1,
+            "ng": 20,
             "dox": 20
         },
         {
@@ -441,17 +453,7 @@
             "url": "wizards",
             "text": "Wizards",
             "type": "component",
-            "ux": 20,
-            "ui": 20,
-            "core": -1,
-            "ng": 20,
-            "dox": 20,
-            "isUpdated": true
-        },
-        {
-            "url": "wizard-deprecated",
-            "text": "Wizards (0.8 and earlier)",
-            "type": "component",
+            "newLayout": true,
             "ux": 20,
             "ui": 20,
             "core": -1,
